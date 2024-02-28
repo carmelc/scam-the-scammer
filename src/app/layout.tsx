@@ -16,7 +16,7 @@ export default function RootLayout({
     </head>
     <body className={inter.className}>
     <Header/>
-    <div className="flex flex-col items-center justify-center bg-blue-900 bg-no-repeat bg-[url('/background.jpg')] py-32">
+    <div className="flex flex-col items-center justify-center bg-blue-100 bg-no-repeat bg-[url('/background.jpg')] py-4 bg-center">
       {children}
     </div>
     <Footer/>
