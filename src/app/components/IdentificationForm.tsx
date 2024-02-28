@@ -55,7 +55,7 @@ export default function IdentificationForm() {
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="identification-card">
           Identification Card
           <div className="text-xs text-gray-500" title="Please upload an image of your identification card.">
-            (Upload an image of your ID, Passport, or Driver's License)
+            {`(Upload an image of your ID, Passport, or Driver's License)`}
           </div>
         </label>
         <input
